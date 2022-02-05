@@ -8,26 +8,36 @@
 
 button {
     width:100px;
-    
+    background-color: rgb(62, 121, 101);
 }
 
 .clear {
     width: 300px
 }
 
+
+#equal {
+    width: 200px
+}
 .display {
     display: flex;
     background-color: rgb(187, 176, 197);
     width: 400px;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items:center;
 }
 
-.display-text {
+#display-text {
     height: auto;
     
     font-size: 40px;
-    
-    
 }
 
+.click {
+    background-color: aquamarine;
+}
+
+.numBtns {
+    background-color: black;
+    color: white
+}

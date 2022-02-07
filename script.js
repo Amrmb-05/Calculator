@@ -72,6 +72,7 @@ equalBtn.addEventListener('click', () => {
         displayValue.splice(0,3)
     }
     display.textContent = operate(displayValue[0],displayValue[2],displayValue[1])
+    displayValue.splice(0,3)
     displayValue[0] = parseInt(display.textContent)
 })
 

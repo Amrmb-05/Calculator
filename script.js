@@ -11,6 +11,9 @@ function multiply(a, b) {
 }
 
 function divide(a,b) {
+    if (a/b === Infinity) {
+        return 'can neva eva be'
+    }
     return a/b
 }
 
